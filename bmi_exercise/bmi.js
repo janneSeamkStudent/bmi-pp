@@ -78,6 +78,7 @@ function calculateBMI(height, weight) {
     // Check if the calculated BMI is new min or max and
     // if it is, update it on the global variable and on the page 
     // accordingly
+    // accordingly
     if (bmi > maxBMI) {
         maxBMI = bmi
         document.getElementById('minAndMaxBMI').innerHTML =

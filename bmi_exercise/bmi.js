@@ -19,6 +19,7 @@ let maxBMI = 0.0
 function init() {
     // Initialize all variables by getting them from the local storage
     // (they will be null, if they were not in the local storage)
+    // new line
     let height = localStorage.getItem('height');
     let weight = localStorage.getItem('weight');
     let min = localStorage.getItem('minBMI');
